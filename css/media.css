@@ -1,0 +1,226 @@
+@media screen and ( min-width:640px) {    
+.sm-100{
+  width: 100%;
+}
+.sm-50{
+  width: 50%;
+}
+.sm-33{
+  width: 33.33%;
+}
+.sm-25{
+  width: 25%;
+}
+.sm-20{
+  width: 20%;
+}
+.sm-16{
+  width: 16.66%;
+}
+}
+@media screen and (min-width:768px) {
+  .md-100{
+    width: 100%;
+  }
+  .md-50{
+    width: 50%;
+  }
+  .md-33{
+    width: 33.33%;
+  }
+  .md-25{
+    width: 25%;
+  }
+  .md-20{
+    width: 20%;
+  }
+  .md-16{
+    width: 16.66%;
+  }
+  .gallery-images{
+  columns: 1;
+  }
+  .photos{
+  columns: 1;
+  }
+  .photo-chef{
+  margin-bottom: 50px;
+  }
+  .container{
+  width: 70%;
+  }
+  .social-icons h3{
+  text-align: center;
+  margin: auto;
+  }
+  .social-icons h3::after{        
+  width: 500px;                        
+  }
+  .social-icons i{
+  color: white;
+  margin-right: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+  }
+  }
+@media screen and ( min-width:1024px) {
+  .lg-100{
+    width: 100%;
+  }
+  .lg-50{
+    width: 50%;
+  }
+  .lg-33{
+    width: 33.33%;
+  }
+  .lg-25{
+    width: 25%;
+  }
+  .lg-20{
+    width: 20%;
+  }
+  .lg-16{
+    width: 16.66%;
+  }
+  .container{
+  width: 85%;
+  }
+  .gallery-images{
+  columns: 3;
+  }
+  .photos{
+  columns: 3;
+  }
+  .content1{
+  display: flex;
+  }
+  .contact-box {
+  width: 50%;
+  }
+  .input1{
+  display: flex;
+  }
+  .input2 input{
+  width: 98.5%;
+  }
+  .input3 textarea{
+  width: 98.5%;
+  }
+  .input3 textarea{
+  width:98.5;
+  margin-top: 10px;
+  height: 150px;
+  }
+  footer .container{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .social-media{
+  width: 25%;
+  padding: 20px; 
+  }
+  .info{
+  width: 49%;
+  }
+  .info button{
+  width: 20%;
+  margin-top: 0px;
+  }
+  .info form{
+  display: flex;
+  }
+  .info input{
+  width: 70%;
+  }
+  .details{
+  width: 25%;
+  }
+  .photo-chef{
+  margin-bottom: 0;
+  margin-right: 20px; 
+  }
+  .gallery-img{
+  margin-right: 20px; 
+  }
+  .photo-text{
+  display: flex;
+  flex-wrap: nowrap;
+  }
+  .photo-text .text{
+  order: 1;
+  }
+  .photo-text .photo{
+  order: 2;
+  }
+  .photo{
+  width: 50%;
+  }
+  .text{
+  width: 60%;
+  margin-right: 50px;
+  text-align: start;
+  margin-right: 50px; 
+  }
+  .home{
+  padding-bottom: 0;
+  }
+  .bttn1{
+  padding: 15px;
+  margin-right: 25px;
+  background-color: #CE1212;
+  border-radius: 100vh;
+  color: white;
+  border-top-left-radius: 50%; 
+  text-decoration: none;
+  }
+  .social-icons h3{
+  padding-left: 10px;
+  }
+  .social-icons h3::after{        
+  width: 250px;                        
+  }
+  .links li{
+  display: flex;
+  display: inline-flex;
+  }
+}
+@media screen and ( min-width:1280px) {
+  .xl-100{
+    width: 100%;
+  }
+  .xl-50{
+    width: 50%;
+  }
+  .xl-33{
+    width: 33.33%;
+  }
+  .xl-25{
+    width: 25%;
+  }
+  .xl-20{
+    width: 20%;
+  }
+  .xl-16{
+    width: 16.66%;
+  }
+}
+@media screen and ( min-width:1536px) {
+  .xxl-100{
+    width: 100%;
+  }
+  .xxl-50{
+    width: 50%;
+  }
+  .xxl-33{
+    width: 33.33%;
+  }
+  .xxl-25{
+    width: 25%;
+  }
+  .xxl-20{
+    width: 20%;
+  }
+  .xxl-16{
+    width: 16.66%;
+  }
+}
